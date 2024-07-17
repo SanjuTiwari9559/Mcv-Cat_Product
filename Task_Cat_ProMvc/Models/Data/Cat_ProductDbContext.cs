@@ -13,5 +13,6 @@ namespace Task_Cat_ProMvc.Models.Data
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<CallApi> CallApi { get; set; } 
     }
 }

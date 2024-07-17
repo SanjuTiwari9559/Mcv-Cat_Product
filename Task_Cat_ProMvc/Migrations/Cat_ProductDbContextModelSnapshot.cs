@@ -21,6 +21,26 @@ namespace Task_Cat_ProMvc.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Task_Cat_ProMvc.Models.Data.CallApi", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CallApi");
+                });
+
             modelBuilder.Entity("Task_Cat_ProMvc.Models.Data.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -69,12 +89,17 @@ namespace Task_Cat_ProMvc.Migrations
             modelBuilder.Entity("Task_Cat_ProMvc.Models.Data.Product", b =>
                 {
                     b.HasOne("Task_Cat_ProMvc.Models.Data.Category", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Task_Cat_ProMvc.Models.Data.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

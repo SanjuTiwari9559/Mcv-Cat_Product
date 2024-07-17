@@ -135,3 +135,4 @@ C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc\obj\Debug\net
 C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc\obj\Debug\net8.0\Task_Cat_ProMvc.genruntimeconfig.cache
 C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc\obj\Debug\net8.0\ref\Task_Cat_ProMvc.dll
 C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc\obj\Debug\net8.0\Task_Cat_ProMvc.sourcelink.json

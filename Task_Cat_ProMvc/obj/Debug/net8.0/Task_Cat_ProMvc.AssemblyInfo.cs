@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task_Cat_ProMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92e084e14162805accb7b6d584deeddb9cb79039")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task_Cat_ProMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task_Cat_ProMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,16 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Nimap\Pictures\New_DotNet\Task_Cat_ProMvc\Task_Cat_ProMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/Category/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
+[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/CategoryMvc/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlNdmNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/Category/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/CategoryMvc/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlNdmNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/Category/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcTGlzdC5jc2h0bWw=
+[C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/CategoryMvc/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlNdmNcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Nimap/Pictures/New_DotNet/Task_Cat_ProMvc/Task_Cat_ProMvc/Views/Home/Index.cshtml]

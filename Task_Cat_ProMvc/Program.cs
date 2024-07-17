@@ -13,9 +13,22 @@ namespace Task_Cat_ProMvc
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<Cat_ProductDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("Product_Category")));
-            builder.Services.AddScoped<ICategory,Category1>();
-            builder.Services.AddScoped<IProduct,Product1>();
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Product_Category")));
+
+            // Read the configuration value
+            var useApi = builder.Configuration.GetValue<bool>("UseApi");
+
+            if (useApi)
+            {
+                builder.Services.AddScoped<ICategory, CategoryApi>();
+            }
+            else
+            {
+                builder.Services.AddScoped<ICategory, CategoryMvc>();
+            }
+
+            // Register HttpClient for API calls
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 
@@ -42,3 +55,4 @@ namespace Task_Cat_ProMvc
         }
     }
 }
+

@@ -16,12 +16,13 @@
             <input type="text" id="name" class="form-control rounded-pill" asp-for="Name" />
         </div>
         <div class="mb-3">
-            <label class="form-label">Is Active</label>
-            <input type="text" id="name" class="form-control rounded-pill" asp-for="IsActive" />
-        </div>
+            <input type="checkbox" id="isActive" class="form-check-input" asp-for="IsActive" />
+            <label class="form-check-label" for="isActive">Is Active</label>
         <div class="mb-3">
-            <label class="form-label">Category Id</label>
-            <input type="text" id="name" class="form-control rounded-pill" asp-for="CategoryId" />
+            <label class="form-label">Category</label>
+            <select id="categoryId" class="form-control rounded-pill" asp-for="CategoryId" asp-items="@(new SelectList(Model.Categories, "Value", "Text", Model.CategoryId))">
+                <option value="">Select Category</option>
+            </select>
         </div>
         
 
